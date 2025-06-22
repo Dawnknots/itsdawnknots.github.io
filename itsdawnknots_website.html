@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ItsDawnKnots | Dream Out Loud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-pink: #f7cce8;
+      --main-purple: #d7c3f7;
+      --accent-dark: #5e548e;
+      --font-primary: 'Poppins', sans-serif;
+      --font-cursive: 'Great Vibes', cursive;
+    }
+
+    body {
+      font-family: var(--font-primary);
+      background: linear-gradient(145deg, var(--main-pink), var(--main-purple));
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+    }
+
+    header h1 {
+      font-family: var(--font-cursive);
+      font-size: 3rem;
+      color: var(--accent-dark);
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--accent-dark);
+      font-weight: 600;
+    }
+
+    section {
+      padding: 2rem;
+      background: white;
+      margin: 1rem auto;
+      max-width: 800px;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      font-family: var(--font-cursive);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--accent-dark);
+    }
+
+    .gallery img, .catalog img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 0.5rem 0;
+    }
+
+    .story-card, .catalog-item, .testimonial {
+      background: var(--main-purple);
+      padding: 1rem;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    .story-card img, .catalog-item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .catalog-item button {
+      margin-top: 0.5rem;
+      background: var(--accent-dark);
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .testimonial {
+      font-style: italic;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: var(--main-purple);
+    }
+
+    .socials a {
+      margin: 0 0.5rem;
+      color: var(--accent-dark);
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <!-- (rest of content stays the same) -->
+
+  <section id="catalog">
+    <h2>Crochet Mini Catalog</h2>
+    <div class="catalog">
+      <div class="catalog-item">
+        <img src="https://i.imgur.com/WUhl2Qo.jpg" alt="Crochet Flower Bag">
+        <h3>Flower Purse</h3>
+        <p>Handmade mini sling with pastel florals. Made with love and soft yarns. ₱250</p>
+        <button onclick="alert('To order, DM me on Instagram @dawn_knots!')">Order Now</button>
+      </div>
+      <div class="catalog-item">
+        <img src="https://i.imgur.com/rrv5lHG.jpg" alt="Crochet Hair Accessories">
+        <h3>Hair Scrunchies Set</h3>
+        <p>Three-piece set in pink, lavender, and white. Soft and gentle on hair. ₱120</p>
+        <button onclick="alert('To order, DM me on Instagram @dawn_knots!')">Order Now</button>
+      </div>
+      <div class="catalog-item">
+        <img src="https://i.imgur.com/NvUqRhW.jpg" alt="Crochet Plushie">
+        <h3>Moon Bunny Plushie</h3>
+        <p>A kawaii moon guardian plushie perfect as a gift or desk companion. ₱350</p>
+        <button onclick="alert('To order, DM me on Instagram @dawn_knots!')">Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      “Her crochet pieces are made with so much love and care! 💕” – Happy Buyer
+    </div>
+    <div class="testimonial">
+      “Aeloria’s stories are magical and immersive. I’m obsessed!” – Wattpad Reader
+    </div>
+    <div class="testimonial">
+      “One of the most aesthetic and creative people I’ve worked with.” – Design Client
+    </div>
+  </section>
+
+  <!-- (rest of content stays the same) -->
+</body>
+</html>
